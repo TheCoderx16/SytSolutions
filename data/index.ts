@@ -86,48 +86,23 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Nox Chat - Real Time Chat App",
+    title: "Project Name",
     des: "We can signUp, make friends, can create groups, send attachments & many more",
-    img: "/noxChat.jpg",
+    img: "",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://nox-chat-frontend.vercel.app/",
-    gitLink: "https://github.com/nik2168/Nox-Chat.git",
+    link: "",
+    gitLink: "",
   },
   {
     id: 2,
-    title: "Nox Cart - Ecommerce Cart",
+    title: "Project 2",
     des: "We can signUp, Check out products, add to cart, make payment, see order history & many more",
-    img: "/noxCart.jpg",
+    img: "",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://noxcart.vercel.app/",
-    gitLink: "https://github.com/nik2168/EcommerceStoreFrontend.git",
+    link: "",
+    gitLink: "",
   },
-  {
-    id: 3,
-    title: "Nox Weather - Real Time Weather",
-    des: "We can fetch & add cities around the globe for their live weather status, it shows the background according to the weather conditions & 6 days temperature graphs",
-    img: "/noxWeather.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://nox-weather-frontend.vercel.app/",
-    gitLink: "https://github.com/nik2168/Weather-Project.git",
-  },
-  {
-    id: 4,
-    title: "Delhi Metro Map",
-    des: "We can find the shortest path between any two metro station ...",
-    img: "/DelhiMetro.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://delhi-metro-map.vercel.app/",
-    gitLink: "https://github.com/nik2168/delhiMetroJsProject.git",
-  },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "/ui.apple.com",
-  // },
+
 ];
 
 export const testimonials = [
@@ -231,16 +206,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/nik2168",
+    link: "",
   },
   {
     id: 2,
     img: "/wha.svg",
-    link: "https://wa.link/rhv6a6",
+    link: "",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/nikhil-koshal",
+    link: "",
   },
 ];
+
