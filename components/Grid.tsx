@@ -2,7 +2,7 @@ import { gridItems } from "@/data";
 
 const Grid = () => {
   return (
-    <section className="relative w-[100vw]  min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <section className="relative w-full  min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       {gridItems.map((item) => (
         <div
           key={item.id}
