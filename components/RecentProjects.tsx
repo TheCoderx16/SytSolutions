@@ -15,14 +15,14 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-5 gap-x-[3%] gap-y-8 mt-10">
         {projects.map((item) => (
           <div
-            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[85vw]"
             key={item.id}
           >
             <PinContainer title={item?.gitLink} href={item?.gitLink}>
               <a
                 href={item?.gitLink}
                 target={"_blank"}
-                className="relative flex items-center justify-center sm:w-[470px] w-[80vw] overflow-hidden sm:h-[40vh] h-[43vh] lg:h-[43vh] mb-10"
+                className="relative flex items-center justify-center sm:w-[470px] w-[85vw] overflow-hidden sm:h-[40vh] h-[43vh] lg:h-[43vh] mb-10"
               >
                 <div
                   className="relative w-full h-full overflow-hidden rounded-3xl"
