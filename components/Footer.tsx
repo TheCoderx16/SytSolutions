@@ -15,26 +15,26 @@ const Footer = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+      <div className="flex flex-col items-center relative z-10">
+        <h1 className="heading lg:max-w-[52vw]">
+          Ready for a <span className="text-purple">significant</span> increase
+          in revenue?
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+        <p className="text-white-200 md:mt-10 my-5 text-center max-w-xl">
+          We accept a highly limited number of retainer clients to ensure maximum
+          focus and results.
         </p>
-        <a href="" target="_blank">
+        <a href="#contact">
           <MagicButton
-            title="Let's get in touch"
+            title="Apply for a Strategy Session"
             icon={<FaLocationArrow />}
             position="right"
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center gap-4 px-4 md:px-8">
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center gap-4 px-4 md:px-8 relative z-10">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 SytSolution
+          Copyright © 2026 SYT Solutions
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

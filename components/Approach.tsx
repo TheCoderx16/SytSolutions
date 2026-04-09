@@ -5,59 +5,61 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
+    <section className="w-full py-20" id="process">
+      <h1 className="heading px-4">
+        Our Process: The{" "}
+        <span className="text-purple">4-Step Revenue Engine</span>
       </h1>
-      {/* remove bg-white dark:bg-black */}
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        {/* add des prop */}
+      <div className="my-20 flex flex-col xl:flex-row flex-wrap items-center justify-center w-full gap-4 xl:gap-3 max-w-[90rem] mx-auto px-4">
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Deep-Dive Strategy & Positioning"
+          icon={<AceternityIcon order="Step 1" />}
+          des="We define your competitive advantage."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Conversion-Focused Script & Concept"
+          icon={<AceternityIcon order="Step 2" />}
+          des="We write for your customer's wallet."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            // change bg-black to bg-pink-900
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-              // change the colors of the
               [255, 166, 158],
               [221, 255, 247],
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Cinematic Production (Flawless Execution)"
+          icon={<AceternityIcon order="Step 3" />}
+          des="Premium look, professional trust."
         >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
+          />
+        </Card>
+        <Card
+          title="Performance Editing & Optimization"
+          icon={<AceternityIcon order="Step 4" />}
+          des="The final step that guarantees results."
+        >
+          <CanvasRevealEffect
+            animationSpeed={3.6}
+            containerClassName="bg-violet-900 rounded-3xl overflow-hidden"
+            colors={[
+              [167, 139, 250],
+              [196, 181, 253],
+            ]}
+            dotSize={2}
           />
         </Card>
       </div>

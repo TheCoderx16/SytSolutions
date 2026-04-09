@@ -3,10 +3,15 @@
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
-import Footer from "@/components/Footer";
+import SocialProof from "@/components/SocialProof";
+import WhatWeDo from "@/components/WhatWeDo";
+import WhoThisIsFor from "@/components/WhoThisIsFor";
 import Approach from "@/components/Approach";
-import RecentProjects from "@/components/RecentProjects";
+import Pricing from "@/components/Pricing";
+import FinalCta from "@/components/FinalCta";
+import AboutSection from "@/components/AboutSection";
+import ServicesSection from "@/components/ServicesSection";
+import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
@@ -15,9 +20,14 @@ const Home = () => {
       <div className=" w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <Grid />
-        <RecentProjects />
+        <SocialProof />
+        <WhatWeDo />
+        <WhoThisIsFor />
         <Approach />
+        <Pricing />
+        <FinalCta />
+        <AboutSection />
+        <ServicesSection />
         <Footer />
       </div>
     </main>

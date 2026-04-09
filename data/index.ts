@@ -1,47 +1,34 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Services", link: "#services" },
   { name: "Contact", link: "#contact" },
 ];
 
+/** Used by `components/Grid.tsx` if re-enabled on the homepage. */
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
     video: "/testing.MOV",
-
     spareImg: "",
   },
 ];
 
-export const projects = [
-  {
-    id: 1,
-    title: "Project Name",
-    des: "We can signUp, make friends, can create groups, send attachments & many more",
-    img: "",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "",
-    gitLink: "",
-  },
-  {
-    id: 2,
-    title: "Project 2",
-    des: "We can signUp, Check out products, add to cart, make payment, see order history & many more",
-    img: "",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "",
-    gitLink: "",
-  },
-
-];
-
+/** Retained for `components/RecentProjects.tsx` if re-enabled; empty by default. */
+export const projects = [] as {
+  id: number;
+  title: string;
+  des: string;
+  img: string;
+  iconLists: string[];
+  link: string;
+  gitLink: string;
+}[];
 
 export const socialMedia = [
   {

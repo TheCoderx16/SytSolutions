@@ -7,8 +7,9 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Syt Solutions",
-  description: "Video Editing & Marketing Services",
+  title: "SYT Solutions | Video Performance & ROI",
+  description:
+    "Premium, data-driven cinematic video ads for healthcare, education, and SaaS. We guarantee ROI—not just views.",
 };
 
 export default function RootLayout({
