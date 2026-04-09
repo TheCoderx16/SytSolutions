@@ -20,7 +20,7 @@ const Hero = () => {
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="purple"
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight className="left-20 md:left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
       {/**
@@ -53,7 +53,7 @@ const Hero = () => {
            */}
           <TextGenerateEffect
             words="We'll Fill Your Calendar with New Customers in 30 Days - Guaranteed"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[20px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
