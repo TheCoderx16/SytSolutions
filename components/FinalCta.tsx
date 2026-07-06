@@ -14,15 +14,8 @@ const FinalCta = () => {
           Let&apos;s Build Something{" "}
           <span className="text-purple">That Stands Out</span>
         </h2>
-        <div className="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">
+        <div className="mt-10 flex justify-center">
           <a href="#contact" className="w-full md:w-auto">
-            <MagicButton
-              title="Start Your Project"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
-          <a href="mailto:sytagency.info@gmail.com" className="w-full md:w-auto">
             <MagicButton
               title="Contact Us"
               icon={<FaLocationArrow />}

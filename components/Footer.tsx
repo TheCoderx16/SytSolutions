@@ -1,7 +1,6 @@
-import { FaInstagram, FaLinkedinIn, FaLocationArrow } from "react-icons/fa6";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
-import MagicButton from "./MagicButton";
 
 const socialIcons: Record<string, JSX.Element> = {
   Instagram: <FaInstagram size={20} />,
@@ -10,7 +9,7 @@ const socialIcons: Record<string, JSX.Element> = {
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-20 pb-10">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-7 min-h-96">
         <img
@@ -29,13 +28,6 @@ const Footer = () => {
             sytagency.info@gmail.com
           </a>
         </p>
-        <a href="mailto:sytagency.info@gmail.com">
-          <MagicButton
-            title="Book Consultancy"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center gap-4 px-4 md:px-8 relative z-10">
         <p className="md:text-base text-sm md:font-normal font-light">

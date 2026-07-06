@@ -8,7 +8,7 @@ import WhatWeDo from "@/components/WhatWeDo";
 import WhoThisIsFor from "@/components/WhoThisIsFor";
 import Approach from "@/components/Approach";
 import Pricing from "@/components/Pricing";
-import FinalCta from "@/components/FinalCta";
+import ContactSection from "@/components/ContactSection";
 import AboutSection from "@/components/AboutSection";
 import ServicesSection from "@/components/ServicesSection";
 import Footer from "@/components/Footer";
@@ -27,7 +27,7 @@ const Home = () => {
         <ServicesSection />
         <AboutSection />
         <SocialProof />
-        <FinalCta />
+        <ContactSection />
         <Footer />
       </div>
     </main>

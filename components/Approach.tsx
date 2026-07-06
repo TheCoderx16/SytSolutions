@@ -11,19 +11,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col xl:flex-row flex-wrap items-center justify-center w-full gap-4 xl:gap-3 max-w-[90rem] mx-auto px-4">
         <Card
-          title="Concept"
-          icon={<AceternityIcon order="Step 1" />}
-          des="Ideas shaped around story and audience. We define the core message before anything else."
-        >
-          <CanvasRevealEffect
-            animationSpeed={5.1}
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
-          />
-        </Card>
-        <Card
           title="Pre-Production"
-          icon={<AceternityIcon order="Step 2" />}
-          des="Planning every detail before the shoot. Location scouting, casting, and meticulous scheduling."
+          icon={<AceternityIcon order="Step 1" />}
+          des="Story and audience shaped into a clear message. Location scouting, casting, and meticulous scheduling before the shoot."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -37,7 +27,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Production"
-          icon={<AceternityIcon order="Step 3" />}
+          icon={<AceternityIcon order="Step 2" />}
           des="Focused execution with zero chaos. High-end equipment operated by specialists."
         >
           <CanvasRevealEffect
@@ -48,7 +38,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Post-Production"
-          icon={<AceternityIcon order="Step 4" />}
+          icon={<AceternityIcon order="Step 3" />}
           des="Editing, color grading, VFX, and final polish to deliver a cinema-ready piece."
         >
           <CanvasRevealEffect

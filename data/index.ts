@@ -1,7 +1,7 @@
 export const navItems = [
-  { name: "Work", link: "#work" },
-  { name: "Services", link: "#services" },
-  { name: "About", link: "#about" },
+  { name: "Work", link: "/work" },
+  { name: "Services", link: "/#services" },
+  { name: "About", link: "/#about" },
 ];
 
 /** Used by `components/Grid.tsx` if re-enabled on the homepage. */

@@ -1,8 +1,24 @@
 const teamMembers = [
-  "Zaid Ahmed — Creative Director / Founder",
-  "Faiz — AI Visual Specialist",
-  "Yuvraj Poonia — Director",
-  "Abhishek Hudda — Assistant Director",
+  {
+    name: "Zaid Ahmed",
+    role: "Creative Director / Founder",
+    img: "/team/zaid.png",
+  },
+  {
+    name: "Faiz",
+    role: "AI Visual Specialist",
+    img: "/team/faiz.png",
+  },
+  {
+    name: "Yuvraj Poonia",
+    role: "Director",
+    img: "/team/yuvraj.png",
+  },
+  {
+    name: "Abhishek Hudda",
+    role: "Assistant Director",
+    img: "/team/abhishek.png",
+  },
 ];
 
 const AboutSection = () => {
@@ -17,21 +33,24 @@ const AboutSection = () => {
           network of specialists.
         </p>
       </div>
-      <div className="mt-12 max-w-2xl mx-auto">
-        <h3 className="text-center text-xl font-semibold text-white mb-6">
-          The Team
-        </h3>
-        <ul className="space-y-4">
-          {teamMembers.map((line) => (
-            <li
-              key={line}
-              className="flex gap-3 text-white-200 text-sm md:text-base leading-relaxed"
-            >
-              <span className="text-purple shrink-0 mt-1">—</span>
-              <span>{line}</span>
-            </li>
+      <div className="mt-14 max-w-6xl mx-auto px-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+          {teamMembers.map((member) => (
+            <div key={member.name} className="flex flex-col">
+              <img
+                src={member.img}
+                alt={member.name}
+                className="aspect-[3/4] w-full object-cover rounded-lg"
+              />
+              <h3 className="mt-4 text-lg md:text-xl font-semibold text-white">
+                {member.name}
+              </h3>
+              <p className="mt-1 uppercase tracking-widest text-xs text-purple">
+                {member.role}
+              </p>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   );

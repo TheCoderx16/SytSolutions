@@ -41,7 +41,7 @@ const Hero = () => {
           className="absolute inset-0 h-full w-full object-cover"
         />
         {/* Dark overlay so the hero text stays readable over the video */}
-        <div className="absolute inset-0 pointer-events-none bg-black-100/70" />
+        <div className="absolute inset-0 pointer-events-none bg-black-100/40" />
         {/* Radial gradient for the container to give a faded look */}
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
@@ -70,7 +70,7 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="#work" className="w-full md:w-auto">
+            <a href="/work" className="w-full md:w-auto">
               <MagicButton
                 title="View Our Work"
                 icon={<FaLocationArrow />}
