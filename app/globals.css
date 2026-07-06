@@ -71,7 +71,7 @@
     @apply border-border !scroll-smooth;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
   }
   button {
     @apply active:outline-none;
@@ -80,6 +80,10 @@
 
 @layer utilities {
   .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
+    @apply font-sans font-bold tracking-wide leading-snug text-balance text-4xl md:text-5xl text-center;
+  }
+
+  .eyebrow {
+    @apply text-purple uppercase tracking-widest text-xs font-medium text-center;
   }
 }
