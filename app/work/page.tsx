@@ -102,14 +102,7 @@ const WorkPage = () => {
         </section>
 
         <section className="w-full py-10 relative z-10">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 px-4">
-            <a href="/#contact" className="w-full md:w-auto">
-              <MagicButton
-                title="Start Your Project"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
-            </a>
+          <div className="flex items-center justify-center px-4">
             <a href="/" className="w-full md:w-auto">
               <MagicButton
                 title="Back to Home"
