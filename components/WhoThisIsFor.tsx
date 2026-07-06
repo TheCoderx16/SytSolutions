@@ -1,15 +1,19 @@
 const verticals = [
   {
-    title: "Hospitals & Clinics",
-    body: "Secure patient trust and significantly increase high-value procedure bookings.",
+    title: "Cinematic Quality",
+    body: "Over content clutter. Every frame is deliberate.",
   },
   {
-    title: "Coaching Institutes",
-    body: "Achieve full, sold-out batches every time.",
+    title: "Small Crew",
+    body: "Sharper execution. Agile, focused, and efficient.",
   },
   {
-    title: "SaaS Companies",
-    body: "Drastically lower Customer Acquisition Cost (CAC) and accelerate conversion velocity.",
+    title: "Modern Workflow",
+    body: "Utilizing the latest tech for maximum impact.",
+  },
+  {
+    title: "Story-First",
+    body: "Narrative drives the visual, not the other way around.",
   },
 ];
 
@@ -17,9 +21,9 @@ const WhoThisIsFor = () => {
   return (
     <section className="w-full py-20 relative z-10">
       <h2 className="heading">
-        Who this is <span className="text-purple">for</span>
+        Built <span className="text-purple">Different</span>
       </h2>
-      <div className="mt-14 grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+      <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
         {verticals.map((v) => (
           <div
             key={v.title}

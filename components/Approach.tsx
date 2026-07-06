@@ -7,14 +7,13 @@ const Approach = () => {
   return (
     <section className="w-full py-20" id="process">
       <h1 className="heading px-4">
-        Our Process: The{" "}
-        <span className="text-purple">4-Step Revenue Engine</span>
+        Our <span className="text-purple">Process</span>
       </h1>
       <div className="my-20 flex flex-col xl:flex-row flex-wrap items-center justify-center w-full gap-4 xl:gap-3 max-w-[90rem] mx-auto px-4">
         <Card
-          title="Deep-Dive Strategy & Positioning"
+          title="Concept"
           icon={<AceternityIcon order="Step 1" />}
-          des="We define your competitive advantage."
+          des="Ideas shaped around story and audience. We define the core message before anything else."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,9 +21,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Conversion-Focused Script & Concept"
+          title="Pre-Production"
           icon={<AceternityIcon order="Step 2" />}
-          des="We write for your customer's wallet."
+          des="Planning every detail before the shoot. Location scouting, casting, and meticulous scheduling."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -37,9 +36,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Cinematic Production (Flawless Execution)"
+          title="Production"
           icon={<AceternityIcon order="Step 3" />}
-          des="Premium look, professional trust."
+          des="Focused execution with zero chaos. High-end equipment operated by specialists."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,9 +47,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Performance Editing & Optimization"
+          title="Post-Production"
           icon={<AceternityIcon order="Step 4" />}
-          des="The final step that guarantees results."
+          des="Editing, color grading, VFX, and final polish to deliver a cinema-ready piece."
         >
           <CanvasRevealEffect
             animationSpeed={3.6}

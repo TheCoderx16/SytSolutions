@@ -46,7 +46,7 @@ export const FloatingNav = ({
       >
         <div className="flex shrink-0 items-center border-r border-gray-200/80 pr-2 sm:pr-4 md:pr-9">
           <h3 className="text-sm font-semibold tracking-tight sm:text-base md:text-lg whitespace-nowrap">
-            Syt Solutions
+            SYT SOLUTIONS
           </h3>
         </div>
         {navItems.map((navItem: any, idx: number) => (
@@ -61,6 +61,13 @@ export const FloatingNav = ({
             <span className="text-xs !cursor-pointer sm:text-sm">{navItem.name}</span>
           </Link>
         ))}
+        <Link
+          href="#contact"
+          className="relative shrink-0 whitespace-nowrap rounded-lg border border-white/[0.2] px-3 py-1.5 text-xs font-medium text-white sm:px-4 sm:py-2 sm:text-sm"
+        >
+          <span>Start a Project</span>
+          <span className="absolute inset-x-0 -bottom-px mx-auto h-px w-1/2 bg-gradient-to-r from-transparent via-purple to-transparent" />
+        </Link>
       </motion.div>
     </div>
   );

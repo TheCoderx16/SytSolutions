@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div id="work" className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -32,6 +32,16 @@ const Hero = () => {
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
+        <video
+          src="/hero-video.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        {/* Dark overlay so the hero text stays readable over the video */}
+        <div className="absolute inset-0 pointer-events-none bg-black-100/70" />
         {/* Radial gradient for the container to give a faded look */}
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
@@ -42,27 +52,32 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-96">
-            Video performance · ROI guaranteed
-          </p>
-
           <TextGenerateEffect
-            words="Your Ad Budget is an Investment. We Guarantee ROI."
+            words="Not made for everyone—and that's the point."
             className="text-center text-[20px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-3xl text-white-200">
-            Premium, data-driven cinematic video ads specifically engineered for
-            high-value clients in healthcare, education, and SaaS.
+            SYT Solutions creates cinematic visuals for brands and artists who
+            value clarity, direction, and high-impact storytelling.
           </p>
 
-          <a href="#contact">
-            <MagicButton
-              title="Apply for a Strategy Session"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full md:w-auto">
+            <a href="#contact" className="w-full md:w-auto">
+              <MagicButton
+                title="Start a Project"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="#work" className="w-full md:w-auto">
+              <MagicButton
+                title="View Our Work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

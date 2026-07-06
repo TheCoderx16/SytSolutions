@@ -20,14 +20,14 @@ const Home = () => {
       <div className=" w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <SocialProof />
         <WhatWeDo />
         <WhoThisIsFor />
         <Approach />
         <Pricing />
-        <FinalCta />
-        <AboutSection />
         <ServicesSection />
+        <AboutSection />
+        <SocialProof />
+        <FinalCta />
         <Footer />
       </div>
     </main>

@@ -1,19 +1,19 @@
 const offerings = [
   {
-    title: "High-Performance Ad Films (30–60 sec)",
-    line: "Built to outperform.",
+    title: "Music Videos",
+    line: "Cinematic storytelling for artists.",
   },
   {
-    title: "Strategic Brand Commercials",
-    line: "Positioning for dominance.",
+    title: "Commercial Ads",
+    line: "Ads that hold attention.",
   },
   {
-    title: "SaaS Funnel Explainers",
-    line: "Clarity that drives sign-ups.",
+    title: "Brand Films",
+    line: "Narrative-driven brand identity.",
   },
   {
-    title: "Performance Creatives",
-    line: "Relentlessly tested for scale.",
+    title: "AI Production",
+    line: "Next-gen visuals, latest tech.",
   },
 ];
 
@@ -21,11 +21,14 @@ const WhatWeDo = () => {
   return (
     <section className="w-full py-20 relative z-10">
       <h2 className="heading">
-        What we <span className="text-purple">do</span>
+        Cinematic <span className="text-purple">Production</span>
       </h2>
       <p className="text-center text-white-200 max-w-3xl mx-auto mt-6 text-base md:text-lg">
-        We are not &quot;videographers.&quot; We are{" "}
-        <span className="text-white font-medium">conversion engineers.</span>
+        From concept to final frame, every project is built with intent. We
+        focus on creating visuals that{" "}
+        <span className="text-white font-medium">
+          hold attention, communicate clearly, and leave a lasting impression.
+        </span>
       </p>
       <ul className="mt-14 grid gap-6 md:grid-cols-2 max-w-4xl mx-auto">
         {offerings.map((item) => (

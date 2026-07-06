@@ -1,7 +1,7 @@
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "Work", link: "#work" },
   { name: "Services", link: "#services" },
-  { name: "Contact", link: "#contact" },
+  { name: "About", link: "#about" },
 ];
 
 /** Used by `components/Grid.tsx` if re-enabled on the homepage. */
@@ -33,18 +33,13 @@ export const projects = [] as {
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
-    link: "",
+    name: "Instagram",
+    link: "#",
   },
   {
     id: 2,
-    img: "/wha.svg",
-    link: "",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
-    link: "",
+    name: "LinkedIn",
+    link: "#",
   },
 ];
 
