@@ -38,10 +38,8 @@ const Hero = () => {
           loop
           muted
           playsInline
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover opacity-75"
         />
-        {/* Light overlay so hero text stays readable while keeping the video prominent */}
-        <div className="absolute inset-0 pointer-events-none bg-black-100/10" />
         {/* Radial gradient for the container to give a faded look */}
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
