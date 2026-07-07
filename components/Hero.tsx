@@ -52,7 +52,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
             words="Not made for everyone—and that's the point."
-            className="text-center text-[20px] md:text-5xl lg:text-6xl"
+            className="text-center text-4xl md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-3xl text-white-200">
@@ -60,15 +60,15 @@ const Hero = () => {
             value clarity, direction, and high-impact storytelling.
           </p>
 
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full md:w-auto">
-            <a href="#contact" className="w-full md:w-auto">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-7 md:gap-4 w-full md:w-auto">
+            <a href="#contact" className="w-[60%] md:w-auto lg:w-auto">
               <MagicButton
                 title="Start a Project"
                 icon={<FaLocationArrow />}
                 position="right"
               />
             </a>
-            <a href="/work" className="w-full md:w-auto">
+            <a href="/work" className="w-[60%] md:w-auto lg:w-auto">
               <MagicButton
                 title="View Our Work"
                 icon={<FaLocationArrow />}
