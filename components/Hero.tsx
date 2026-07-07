@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div id="work" className="pb-20 pt-36">
+    <div id="work" className="pb-20 pt-[6rem]">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -52,10 +52,10 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
             words="Not made for everyone—and that's the point."
-            className="text-center text-4xl md:text-5xl lg:text-6xl"
+            className="text-center text-4xl md:text-5xl lg:text-6xl "
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-3xl text-white-200">
+          <p className="text-center md:tracking-wider mb-4 mt-[6rem] text-sm md:text-lg lg:text-2xl max-w-3xl text-white-200">
             SYT Solutions creates cinematic visuals for brands and artists who
             value clarity, direction, and high-impact storytelling.
           </p>
